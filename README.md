@@ -1,6 +1,19 @@
-# [Preview] Sample Chat App with AOAI
+# BenefitsBot
 
-This repo contains sample code for a simple chat webapp that integrates with Azure OpenAI. Note: some portions of the app use preview APIs.
+BenefitsBot is a Retrieval-Augmented Generation (RAG) assistant built using Azure OpenAI and Azure AI Search.
+
+## Azure Resources
+
+- App Service: benefitsbot
+- Azure AI Search Index: benefitsbot
+- Storage: Azure Blob Storage
+
+## Description
+
+This repository contains the codebase for the BenefitsBot internal assistant used for answering benefits-related questions from internal documents.
+
+The application is based on the Microsoft Azure OpenAI RAG template:
+https://github.com/microsoft/sample-app-aoai-chatGPT
 
 ## Prerequisites
 - An existing Azure OpenAI resource and model deployment of a chat model (e.g. `gpt-35-turbo-16k`, `gpt-4`)
